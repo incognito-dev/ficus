@@ -1,0 +1,625 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1300px) {
+	.lkp-company .col-md-6 {
+		width: 50%
+	}
+}
+@media only screen and (max-width : 1200px) {
+	#header .menu-wrap .nav>li>a {
+		font-size: 16px;
+	    line-height: 67px;
+		padding: 0 5px;
+	}
+}
+@media only screen and (max-width : 1199px) {
+	.main-content .thumb-action img {
+	    height: 100%;
+	    max-height: 144px;
+	    width: auto!important;
+	}
+	.lkp-actions form .form_row .editor-info.left {
+	    right: 16%;
+	}
+	.lkp-actions form .form_row.col-2 {
+	    width: 65%;
+	}
+	.lkp-actions form .form_row .gallery-info.left {
+	    right: 0;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery {
+	    width: 52%;
+	}
+	.lkp-gallery form .form_row .gallery-wrap .info-label.gallery-info {
+	    width: 46%;
+	}
+	.lkp-add-company form .form_row.col-2 {
+	    width: 63%;
+	}
+	.lkp-add-company form .form_row .input_fields_add .info-label {
+	    width: 60%;
+	}
+	.lkp-add-company form .form_row .gallery-wrap .info-label {
+		right: 0;
+		width: 45%;
+	}
+	.lkp-add-company .info-label p {
+	    margin: 5px 0;
+	}
+	.lkp-add-company form .form_row .input_fields_add .info-label {
+	    width: 55%;
+	}
+	.comments-wrap .top-coment .thumb {
+	    height: 140px;
+	}
+	.comments-wrap .comment-item .thumb {
+	    height: 160px;
+	}
+	.object-page .object .thumb {
+	    height: 200px;
+	}
+	.object .obj-btn a {
+	    width: 125px;
+	}
+	.slider-wrap {
+	    height: 403px;
+	}
+	.slider-wrap .right-slider-bar .btns .slider-button {
+	    font-size: 14px;
+	}
+	.slider-wrap .slider-company .slide-item img {
+	    width: auto;
+	    height: 403px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	#header .login-tools .modal-btn {
+		font-size: 13px;
+	}
+	#header .navbar-form {
+		display: block;
+	}
+	.navbar-header {
+		text-align: center;
+	}
+	.navbar-header {
+		float: none;
+	}
+	#header .menu-wrap .navbar-default .logo {
+		margin: 12px 5px 0 5px;
+	}
+	#header .menu-wrap .nav>li>a {	
+		line-height: 63px;	
+	}
+	#header .menu-wrap .navbar-toggle {
+		margin: 13px 0;
+	}
+	.links {
+		float: none;
+		margin: 17px 0 30px 0;
+		text-align: center;
+	}
+	.main-content .about_company .text-wrap {
+		padding-left: 15px;
+	}
+	.main-content .about_company .text-wrap span {
+		display: block;
+		text-align: center;
+	}
+	.main-content .photo-wrap .photo-item {
+		width: 50%;
+	}
+	.main-content .thumb-action {
+		text-align: center;
+	}
+	.main-content .about_company .text-wrap .article-title {
+	    margin: 5px 0;
+	}
+	.main-content .lkp-news .about_company .text-wrap {
+	    max-width: none;
+	}
+	.main-content .about_company .text-wrap .red-btn {
+	    display: block;
+	    margin: 15px auto 0 auto;
+	    max-width: 160px;
+	    padding: 10px;
+	}
+	.red-btn--transparent.edit {
+	    margin: 20px 20px 0 20px!important;
+	}
+	.main-content .about_company .text-wrap .red-btn--transparent.red-btn {
+		display: inline-block;
+	}
+	.main-content .lkp-news .about_company .text-wrap .red-btn {
+	    margin: 15px auto;
+    }
+    .main-content .lkp-news .news .thumb-action {
+    	margin: 15px 0;
+	    max-height: none;
+	}
+	.main-content .thumb-action img {
+	    height: auto;
+	    max-height: none;
+	    max-width: 100%;
+	    width: auto!important;
+	}
+	.main-content .lkp-news .news .about_company .row > .col-md-3 {
+		border-bottom: none;
+	}
+	.main-content .lkp-news .news .about_company .row > div {
+		margin: 0;
+	}
+	.main-content .lkp-news .news .about_company .text-wrap {
+		text-align: center
+	}
+	.main-content .lkp-news .news .about_company .text-wrap > .article-title,
+	.main-content .lkp-news .news .about_company .text-wrap > p {
+		text-align: left;
+	}
+	.lkp-news form .form_row.col-1,
+	.lkp-news form .form_row.col-2 {
+	    width: auto;
+	    float: none;
+	}
+	.lkp-actions form .form_row .editor-info.left {
+		right: auto;
+	    left: auto;
+	    position: relative;
+	    top: -27px;
+	}
+	.lkp-actions form .form_row .select {
+	    max-width: 360px;
+	}
+	.lkp-actions form .form_row input[type='text'] {
+	    max-width: 360px;
+	}
+	.lkp-actions form .form_row.col-2 .info-label {
+	    left: auto;
+	    right: 0;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-item {
+	    width: 33.3333%;
+	}
+	.lkp-add-company form .form_row.col-2 {
+	    width: 100%;
+	}
+	.lkp-add-company .info-label p {
+	    margin: 0;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-price {
+	    width: 33.3333%;
+	}
+	.lkp-company .company-item {
+	    height: 270px;
+	}
+	.comments-wrap .top-comment .thumb {
+	    height: 138px;
+	}
+	.comments-wrap .top-comments {
+		text-align: center;
+		font-size: 0;
+	}
+	.comments-wrap .top-comments .col-sm-6 {
+		display: inline-block;
+		float: none;
+		margin: 0 0 20px 0;
+	}
+	.main-content .single-content .reklama .row {
+		font-size: 0;
+		text-align: center;
+	}
+	.main-content .single-content .reklama .col-sm-6 {
+		display: inline-block;
+		float: none;
+		text-align: left;
+	}
+	.object_wrap {
+		font-size: 0;
+		text-align: center;
+	}
+	.object {
+		display: inline-block;
+		float: none;
+		width: 50%;
+	}
+	.object-page .object .thumb {
+	    height: 150px;
+	}
+	.object-page .object .obj-btn a {
+	    width: 92px;
+	    margin: 0 4px;
+	}
+	.slider-wrap .slider-company .slide-item img {
+		height: auto;
+		width: 100%;
+	}
+	.slider-wrap .lSAction>.lSNext {
+	    right: 30px;
+	}
+	.slider-wrap {
+	    height: auto;
+	}
+	.slider-wrap .right-slider-bar h4 {
+	    text-align: center;
+	}
+	.favorite-object .object {
+	    display: inline-block;
+	    float: none;
+	    width: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.right-sidebar {
+		margin: 30px 0 0 0;
+	}
+	.nav-tabs,
+	.tab-content {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.right-sidebar .address {
+		text-align: center;
+	}
+	#footer .logo {
+		display: block;
+		margin: 12px auto 0 auto;
+		max-width: 200px;
+	}
+	#footer .menu {
+		text-align: left;
+	}
+	.menu,
+	.bank-details {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.lkp-add-company form .YouTube .btns-wrap {
+	    max-width: 100%;
+	}
+	.lkp-news form .btns-wrap {
+		max-width: 100%;
+	}
+	.lkp-add-company form .YouTube .add-link-info {
+	    margin: 0;
+	}
+	#header .navbar-collapse {
+		text-align: center;
+	}
+	#header .navbar-form {
+		display: inline-block;
+	}
+	#header .menu-wrap .nav>li {
+		display: block;
+	}
+	#header .navbar-nav {
+		margin: 0 0 20px 0;
+	}
+	#header .menu-wrap .nav>li>a {
+		line-height: 1;
+		height: auto;
+		margin: 8px 0;
+	}
+	.main-content .photo-wrap .photo-item {
+		width: 33.333%;
+	}
+	.lk-wrap {
+		text-align: center;
+	}
+	.lk-wrap .row {
+		font-size: 0;
+	}
+	.lk-wrap .col-sm-4,
+	.lk-wrap .col-sm-8 {
+		display: inline-block;
+	    text-align: left;
+	    font-size: 16px;
+	    vertical-align: top;
+	    width: 50%;
+	}
+	#header .col-sm-12 {
+		text-align: center;
+	}
+	#header .tools {
+		display: inline-block;
+	}
+	#header .object .dropdown {
+	    top: 28px;
+	}
+	#header .login-tools .dropdown-menu {
+	    margin-left: -100px;
+	    left: 50%;
+	    max-width: 200px;
+   	}
+	#header .login-tools {
+	    padding: 0 0 0 10px;
+	}
+	.info-label {
+		float: none;
+		margin: 15px 0 0 0;
+        width: 100%!important;
+	}
+	.info-label::before {
+		border-style: solid;
+		border-width: 0 9px 9px 9px;
+		border-color: transparent transparent #e8f3de transparent;
+	    content: '';
+	    left: 50%;
+	    margin-left: -9px;
+	    top: -9px;
+	    height: 0;
+	    width: 0;
+	}
+	.lkp-news form .form_row textarea,
+	.lkp-news form .editor-wrap,
+	.lkp-news form .form_row .gallery-wrap .gallery {
+		width: 100%;
+	}
+	.lkp-news form .form_row input[type='text'],
+	.lkp-actions form .form_row .select,
+	.lkp-news form .form_row .select,
+	.lkp-actions form .form_row input[type='text'] {
+    	max-width: none;
+	}
+	.lkp-news form .form_row.col-2 .info-label {
+	    left: auto;
+	    right: auto;
+	    position: relative;
+	    width: 100%!important;
+	}
+	.lkp-actions form .form_row .info-label.editor-info {
+	    top: 0;
+	}
+	.lkp-news .wraning_wrap {
+		text-align: center;
+	}
+	.lkp-news .red-btn {
+	    padding: 12px 40px;
+	    margin: 0 auto;
+	}
+	.lkp-news input.red-btn {
+		display: block;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-item {
+	    width: 20%;
+	}
+	.lkp-add-company form .form_row .info-label.company_name {
+	    top: 0;
+	}
+	.lkp-add-company .info-label p {
+	    margin: 10px 0;
+	}
+	.lkp-add-company form .form_row .info-label.editor-info {
+	    position: relative;
+	    right: 0;
+	    top: 0;
+	}
+	.lkp-add-company form .form_row .input_fields_add .info-label {
+	    position: relative;
+	    right: 0;
+	    top: 0;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-price {
+	    width: 20%;
+	}
+	.lkp-company .company-item {
+	    height: 450px;
+	}
+	.comments-wrap .top-comments .col-sm-6 {
+		display: block;
+		float: none;
+		margin: 0 0 20px 0;
+	}
+	.comments-wrap .top-comment .thumb,
+	.comments-wrap .comment-item .thumb {
+	    height: 50vh;
+	}
+	.comments-wrap .comment-item .thumb {
+		margin: 0 0 10px 0;
+	}
+	.reklama .col-sm-6 {
+		float: left;
+		width: 50%;
+	}
+	.rubric-wrap .rubric-links .last-comment {
+		text-align: center;
+	}
+	.rubric-wrap .last-comment .text {
+		text-align: left;
+	}
+}
+@media only screen and (max-width : 730px) {
+	#header .object,
+	#header .login-tools {
+		float: none;
+		height: auto;
+		text-align: center;
+	}
+	#header .tools {
+		height: auto;
+	}
+	#header .login-tools {
+	    padding: 0;
+	}
+}
+@media only screen and (max-width : 640px) {
+	#footer {
+		margin: 40px 0 0 0;
+	}
+	#footer .col-xs-6 {
+		width: 100%;
+	}
+	#footer .bank-details {
+		float: none;
+		text-align: center;
+	}
+	#footer .menu,
+	#footer .menu ul,
+	#footer .copy {
+		text-align: center;
+	}
+	#footer .copy .metrika {
+		display: inline-block;
+		float: none;
+		margin: 15px 0 0 0;
+	}
+	.main-content .vacancy {
+		text-align: center;
+	}
+	.main-content .vacancy .date {
+		display: block;
+		float: none;
+		margin: 10px 0 0 0;
+	}
+	.main-content .vacancy p {
+		text-align: left;
+	}
+	.main-content .photo-wrap .photo-item {
+		width: 50%;
+	}
+	.modal .close {
+	   top: -17px;
+    	right: -17px;
+	}
+	.lkp-company .company-item {
+	    height: 300px;
+	}
+	.object {
+		max-width: 500px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 540px) {
+	.registration form .label_row label {
+		width: 100%;
+	}
+	.registration form input[type="checkbox"] + label {
+		font-size: 16px;
+	}
+	.registration form a {
+		font-size: 16px;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-price {
+	    width: 33.333%;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-price {
+	    width: 50%;
+	}
+}
+@media only screen and (max-width : 500px) {
+	.main-content .about_company {
+		text-align: center;
+	}
+	.main-content .about_company .date {
+		display: block;
+		float: none;
+		margin: 20px 0 0 0;
+		text-align: center;
+	}
+	.main-content .about_company .text-wrap,
+	.main-content .about_company .text {
+		text-align: left;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-item {
+	    width: 33.333%;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#reg_user .registration form input[type="checkbox"] + label {
+		display: block;
+		text-align: left;
+	}
+	.modal-title {
+		font-size: 20px;
+		padding: 0 10px;
+	}
+	.main-content .photo-wrap .photo-item {
+		height: auto;
+		width: 100%;
+	}
+	.main-content .photo-wrap .photo-item a img {
+		min-height: 0;
+		width: 100%;
+	}
+	.fancybox-close {
+		top: -17px!important;
+		right: -17px!important;
+	}
+	.lk-wrap .col-sm-4,
+	.lk-wrap .col-sm-8{
+		max-width: 330px;
+		width: 100%;
+	}
+	.reklama .col-sm-6 {
+	    float: none;
+	    width: 100%;
+	}
+}
+@media only screen and (max-width : 400px) {
+	.lkp-company .company-item {
+	    height: 240px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	.object .obj-btn a {
+	    margin: 5px 4px;
+	}
+}
+@media only screen and (max-width : 320px) {
+	.main-title {
+		font-size: 30px;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-item {
+	    width: 50%;
+	}
+	.lkp-news form .form_row .gallery-wrap .gallery-item label {
+		height: 100px
+	}
+	.lkp-company .company-item {
+    	height: 180px;
+	}
+}
+
+.main-content .slider_wrap .lSAction {
+	position: absolute;
+    top: 50%;
+    height: 36px;
+    left: 0;
+    margin-top: -18px;
+    width: 100%;
+}
+@media (min-width: 768px) {
+	.main-content .slider_wrap .lSAction {
+		left: 50%;
+	    margin-left: -375px;
+	    width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.main-content .slider_wrap .lSAction {
+		left: 50%;
+	    margin-left: -485px;
+	    width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.main-content .slider_wrap .lSAction {
+		left: 50%;
+	    margin-left: -585px;
+	    width: 1170px;
+	}
+}
+@media (min-width: 1366px) {
+	.main-content .slider_wrap .lSAction {
+	    left: 50%;
+	    margin-left: -634,5px;
+	    width: 1269px;
+	}
+}
